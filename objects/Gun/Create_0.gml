@@ -10,13 +10,6 @@ balastotalsec=30
 
 
 
-
-
-
-
-
-
-
 //Tem que rodar ele no create por conta do que tem ali em baixo
 autovarprim=true
 

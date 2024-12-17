@@ -1,1 +1,0 @@
-timer=random_range(1000,1500)

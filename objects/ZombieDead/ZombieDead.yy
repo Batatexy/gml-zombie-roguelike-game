@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ZumbiDead",
-    "path":"sprites/ZumbiDead/ZumbiDead.yy",
+    "name":"Zumbi",
+    "path":"sprites/Zumbi/Zumbi.yy",
   },
   "spriteMaskId":null,
   "visible":true,
