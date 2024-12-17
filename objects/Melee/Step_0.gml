@@ -1,7 +1,7 @@
 x=Player.x
 y=Player.y
 
-if keyboard_check_pressed(ord("F")) and attacking = false and Player.dmgtrigger = false
+if keyboard_check_pressed(ord("F")) and attacking = false
 {
 	attacking = true
 	atktimer = 1

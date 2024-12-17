@@ -1,5 +1,4 @@
-recoil = global.recoil
-dir = Gun.image_angle + recoil
+dir = Gun.image_angle
 
 direction=dir
 image_angle=dir

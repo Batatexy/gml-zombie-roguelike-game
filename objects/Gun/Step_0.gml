@@ -1,6 +1,6 @@
 if global.pause = false
 {
-	
+
 if Player.life > 0
 {
 	point = point_direction(x,y,mouse_x,mouse_y)
@@ -17,33 +17,37 @@ if Player.life > 0
 
 	if Melee.attacking = false
 	{
-		if Player.dmgtrigger = false
+		if global.arma = 1
 		{
-			if global.arma = 1
-			{
-				PrimariaTiroNormal()
-			}
-			else if global.arma = 2
-			{
-				SecundariaTiroNormal()
-			}
-
-			if keyboard_check_pressed(ord("1")) and global.arma != 1
-			{
-				audio_play_sound(Pickup_Gun, 10, false)
-	
-				ArmaSecundariaCooldown()
-				global.arma = 1
-			}
-
-			if keyboard_check_pressed(ord("2")) and global.arma != 2
-			{
-				audio_play_sound(Pickup_Gun, 10, false) 
-	
-				ArmaPrincipalCooldown()
-				global.arma = 2
-			}
+			PrimariaTiroNormal()
 		}
+		else if global.arma = 2
+		{
+			SecundariaTiroNormal()
+		}
+		
+		
+		
+		if keyboard_check_pressed(ord("1")) and global.arma != 1
+		{
+			audio_play_sound(Pickup_Gun, 10, false)
+	
+			shoottimersec=20
+			reloadtimersec=reloadtimervarsec
+			reloadtriggersec=false
+			global.arma = 1
+		}
+
+		if keyboard_check_pressed(ord("2")) and global.arma != 2
+		{
+			audio_play_sound(Pickup_Gun, 10, false) 
+	
+			shoottimerprim=30
+			reloadtimerprim=reloadtimervarprim
+			reloadtriggerprim=false
+			global.arma = 2
+		}
+		
 
 		
 		visible = true
@@ -52,9 +56,6 @@ if Player.life > 0
 	}
 	else
 	{
-		ArmaPrincipalCooldown()
-		ArmaSecundariaCooldown()
-			
 		visible = false
 		Hand.visible = false
 		Laser.visible = false
@@ -92,6 +93,5 @@ if Player.life > 0
 
 x=Player.x
 y=Player.y
+
 }
-
-

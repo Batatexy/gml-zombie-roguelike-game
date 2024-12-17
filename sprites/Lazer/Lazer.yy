@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Armas",
-    "path":"folders/Sprites/Armas.yy",
+    "name":"Entidades",
+    "path":"folders/Sprites/Entidades.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"sniper1",
-  "bboxMode":2,
+  "bboxMode":0,
   "bbox_bottom":14,
   "bbox_left":0,
   "bbox_right":62,

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Zumbi",
-    "path":"sprites/Zumbi/Zumbi.yy",
+    "name":"Zumbiparado",
+    "path":"sprites/Zumbiparado/Zumbiparado.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -7,7 +7,7 @@ meleesprite = machado1
 
 //Dano
 meleedmg = 0.5 //Machado
-//meleedmg = 1 //Katana
+meleedmg = 1
 
 //Velocidade 
 meleespd = 6 //Machado
