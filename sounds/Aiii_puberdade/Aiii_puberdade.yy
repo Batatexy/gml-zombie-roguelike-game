@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Aiii_puberdade",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.936562,
+  "name":"Aiii_puberdade",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Sounds/Player.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Aiii_puberdade.ogg",
+  "type":0,
+  "volume":1.0,
+}

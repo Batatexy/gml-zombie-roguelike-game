@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"NoBullet",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.176542,
+  "name":"NoBullet",
+  "parent":{
+    "name":"Armas",
+    "path":"folders/Sounds/Armas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"NoBullet.ogg",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"grass3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.66932,
+  "name":"grass3",
+  "parent":{
+    "name":"Passos",
+    "path":"folders/Sounds/Passos.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"grass3.ogg",
+  "type":0,
+  "volume":1.0,
+}

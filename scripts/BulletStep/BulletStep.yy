@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BulletStep",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BulletStep",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
